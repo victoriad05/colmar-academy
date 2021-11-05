@@ -5,32 +5,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/resources/style.css">
     <title>Colmar Academy</title>
 </head>
 
 <body>
-    <header>
-        <section class="logo">
-            <img src="/resources/images/ic-logo.svg" alt="Logo lion">
-            <p>ColmarAcademy</p>
-        </section>
-        <nav>
+    <header class="header">
+        <div class="pannel">
+            <img class="logo-img" src="/resources/images/ic-logo.svg" alt="Logo lion">
+            <h2 class="logo-name"><strong>Colmar</strong><span class="colortxt">Academy</span></h2>
             <ul class="nav-bar">
-                <li><a href="#"></a>On campus</li>
-                <li><a href="#"></a>Online</li>
-                <li><a href="#"></a>For companies</li>
-                <li><a href="#"></a>Sign in</li>
+                <a class="nav-link" href="#" style="text-decoration: none;">
+                    <li>On campus</li>
+                </a>
+                <a class="nav-link" href="#" style="text-decoration: none;">
+                    <li>Online</li>
+                </a>
+                <a class="nav-link" href="#" style="text-decoration: none;">
+                    <li>For companies</li>
+                </a>
+                <a class="nav-link" href="#" style="text-decoration: none;">
+                    <li>Sign in</li>
+                </a>
             </ul>
-        </nav>
+        </div>
     </header>
     <main>
         <section class="start-page">
-            <img src="/resources/images/banner.jpg" alt="Ladies are making homework on the wood table">
-            <h2>Learn something new everyday</h2>
-            <p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. </p>
-            <button type="button">Start here</button>
+            <img class="banner" src="/resources/images/banner.jpg" alt="Ladies are making homework on the wood table">
+            <div class="content">
+                <h2 class="title-start">Learn something <br> new everyday</h2>
+                <p class="content-txt">Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. </p>
+                <br>
+                <button type="button">Start here</button>
+            </div>
+        </section>
+        <section class="main-page">
+            <div class="main-content">
+                <img class="main-img" src="/resources/images/information-main.jpg"
+                    alt="Man is reading a book in the park">
+                <h2 class="main-title">It doesn't hurt to keep practicing</h2>
+                <p class="quote">"Curabitur vitae libero in ipusm porttitor consequat. Aliquam et commodo lectus, <br>
+                    nec consequat
+                    neque. Sed non accumsan urna. Phasellus sed consequat ex. <br> Etiam eget magna laoreet, efficitur
+                    dolor
+                    consequat, tristique ligula"</p>
+                <br>
+                <p class="link">Emanual, Sr Strategist at Hiring.com</p>
+            </div>
+            <aside>
+                <div class="aside.element">
+                    <img class="aside-pic" src="/resources/images/information-orientation.jpg"
+                        alt="Shadows from people on the street">
+                    <div class="info">
+                        <h4>Orientation date</h4>
+                        <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="aside.element">
+                    <img class="aside-pic" src="/resources/images/information-campus.jpg"
+                        alt="Room with woody walls and big map">
+                    <div class="info">
+                        <h4>Our campus</h4>
+                        <p>Find which campus is close by you</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="aside.element">
+                    <img class="aside-pic" src="/resources/images/information-guest-lecture.jpg"
+                        alt="Picture of the man in glasses">
+                    <div class="info">
+                        <h4>Our guest lecture</h4>
+                        <p>Join a keynote with Oliver Sack <br> about music in medical treatment</p>
+                        <a href="#">Read more</a>
+                    </div>
+                </div>
+            </aside>
+        </section>
+        <section class="learning container">
+            <h2>Start Learning</h2>
+            <div>
+                <img src="/resources/images/course-software.jpg" alt="Two computer displays ">
+                <h3>Software engineering</h3>
+                <h4>Courses</h4>
+                <p>Web Development, Mobile Development, iOT,APls</p>
+            </div>
+            <div>
+                <img src="/resources/images/course-software.jpg" alt="Two computer displays ">
+                <h3>Computer art</h3>
+                <h4>Courses</h4>
+                <p>Imaging &amp; Design, Web Design, Motivation Graphics &amp; Visual Effects, Computer Animation</p>
+            </div>
+            <div>
+                <img src="/resources/images/course-software.jpg" alt="Two computer displays ">
+                <h3>SDesign</h3>
+                <h4>Courses</h4>
+                <p>User Experience Design, User Research, Visual Design</p>
+            </div>
+            <div>
+                <img src="/resources/images/course-software.jpg" alt="Two computer displays ">
+                <h3>Data</h3>
+                <h4>Courses</h4>
+                <p>Data Science, Big Data, SQL, Data Visualization</p>
+            </div>
+            <div>
+                <img src="/resources/images/course-software.jpg" alt="Two computer displays ">
+                <h3>Business</h3>
+                <h4>Courses</h4>
+                <p>Product Development, Business Development, Startup</p>
+            </div>
+            <div>
+                <img src="/resources/images/course-software.jpg" alt="Two computer displays ">
+                <h3>Marketing</h3>
+                <h4>Courses</h4>
+                <p>Analytics, Content Marketing, Mobile Marketing</p>
+            </div>
+
         </section>
     </main>
 </body>
