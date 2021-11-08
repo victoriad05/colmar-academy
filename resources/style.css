@@ -344,6 +344,7 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  
     margin-left: 16px;
 }
 
